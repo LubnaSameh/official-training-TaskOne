@@ -278,7 +278,7 @@ nav ul li a:hover {
     margin-top: 20px;
     display: flex;
     padding: 60px 9rem;
-    background-image: url('/images/8116\ 1.png');
+    background-image: url('/task-one/images/8116\ 1.png');
 }
 
 .power-text {
@@ -374,7 +374,7 @@ nav ul li a:hover {
 /* Repairs Section Styles */
 .repairs-section {
     position: relative;
-    background-image: url('/images/8116\ 1\ \(1\).png');
+    background-image: url('/task-one/images/8116\ 1\ \(1\).png');
     background-size: cover;
     background-position: center;
     padding: 100px 0;
