@@ -1,0 +1,1300 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Contact Section Styles */
+.contact {
+    text-align: right;
+    margin: 10px 0px;
+}
+
+.contact a {
+    display: inline-block;
+    color: white;
+    position: relative;
+}
+
+.contact .call-text {
+    display: block;
+    font-size: 15px;
+}
+
+.contact .phone-number {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+/* List Styles */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 169, 157, 0.8);
+    padding: 0px 9rem;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    padding: 10px 15px;
+}
+
+header nav ul li a:hover {
+    background-color: #008c82;
+    border-radius: 5px;
+}
+
+/* Hero Section Styles */
+.hero {
+    position: relative;
+    background-image: url('/images/solar-panels-meadow\ 1.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    text-align: left;
+    padding-left: 9rem;
+}
+
+/* Slider Styles */
+.slider-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: white;
+    font-size: 14px;
+    gap: 10px;
+    margin-bottom: 80px;
+}
+
+.slider-indicator .progress-bar {
+    position: relative;
+    width: 200px;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
+}
+
+.slider-indicator .progress {
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.slider-indicator span {
+    font-weight: bold;
+}
+
+/* Hero Content Styles */
+.hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* Button Styles */
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-primary,
+.btn-secondary {
+    padding: 12px 25px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    color: black;
+}
+
+.btn-primary {
+    background-color: #00a99d;
+}
+
+.btn-primary:hover {
+    background-color: #008c82;
+}
+
+.btn-secondary {
+    background-color: #f0a500;
+}
+
+.btn-secondary:hover {
+    background-color: #d89000;
+}
+
+/* Navigation Hover Effect */
+nav ul li a:hover {
+    background-color: #008c82;
+    box-shadow: inset 0 -2px 0 0 #00726b;
+
+    /* box-shadow:
+    inset;        
+    0px;           
+    -2px;      
+    0px;         
+    0px;          
+    #00726b;  
+     */
+}
+
+/* Info Section Styling */
+.info-section {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 40px 9rem;
+    background-color: #f4f4f4;
+}
+
+/* Text Content Styling */
+.text-content {
+    max-width: 50%;
+}
+
+.text-content h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Information List Styling */
+.info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info-list li {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 40px;
+}
+
+.info-list li span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+    color: #00a99d;
+    font-weight: bold;
+}
+
+/* Image Content Styling */
+.image-content {
+    position: relative;
+    margin-top: 20px;
+}
+
+.image-content img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* Overlay Card Styling */
+.overlay-card {
+    position: absolute;
+    bottom: 30px;
+    left: -40px;
+    background-color: #f0a500;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 60%;
+}
+
+/* Icon Styling */
+.icon {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+/* Overlay Card Text Styling */
+.overlay-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* // */
+/* Power Section Styles */
+.power-section {
+    margin-top: 20px;
+    display: flex;
+    padding: 60px 9rem;
+    background-image: url('/images/8116\ 1.png');
+}
+
+.power-text {
+    max-width: 50%;
+}
+
+.power-text h2 {
+    font-size: 36px;
+    color: #ffffff;
+
+}
+
+.power-text p {
+    font-size: 18px;
+    color: #f1f1f1;
+    margin-bottom: 40px;
+}
+
+/* // */
+
+/* Solar Kits Section Styles */
+.solar-kits {
+    padding: 60px 9rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.solar-kits h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* Kits Grid Styles */
+.kits-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+/* Individual Kit Card Styles */
+.kit-card {
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex: 1;
+}
+
+.kit-card img {
+    width: 100%;
+    height: auto;
+}
+
+.kit-card h3 {
+    font-size: 24px;
+    color: #333;
+    margin: 20px;
+}
+
+.kit-card p {
+    font-size: 16px;
+    color: #666;
+    margin: 0 20px 20px 20px;
+    line-height: 20px;
+}
+
+/* View Products Link Styles */
+.view-products {
+    display: block;
+    margin: 0 20px 20px 20px;
+    color: #00a99d;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.view-products:hover {
+    color: #008c82;
+}
+
+/* Kit Card Hover Effect */
+.kit-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Repairs Section Styles */
+.repairs-section {
+    position: relative;
+    background-image: url('/images/8116\ 1\ \(1\).png');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.repairs-section .overlay {
+    background-color: rgba(0, 0, 0, 0.479);
+    backdrop-filter: blur(4px);
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.repairs-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.repairs-section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+
+/* //////////////////////////// */
+/* Innovators Section */
+.innovators-section {
+    padding: 60px 9rem;
+    background-color: #f9f9f9;
+}
+
+/* Container Setup */
+.innovators-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Content Wrapper */
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Section Icon */
+.text-content img.section-icon {
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Section Heading */
+.text-content h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Section Paragraph */
+.text-content p {
+    font-size: 18px;
+    color: #666;
+}
+
+.icon-wrapper {
+    display: inline-block;
+    background-color: #00726b;
+    /* Dark green background */
+    padding: 14px 20px;
+    border-radius: 10px;
+    /* Initial rounded corners */
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease, border-radius 0.3s ease;
+    /* Smooth transition for background color, scale, and border-radius */
+    text-align: center;
+}
+
+.icon-wrapper i {
+    color: #ffffff;
+    /* White color for the icon */
+    font-size: 24px;
+    /* Size of the icon */
+}
+
+
+
+/* Cards Grid */
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 60%;
+    /* align-items: center; */
+}
+
+/* Card Setup */
+.card4 {
+    height: 100%;
+}
+
+/* Card Styling */
+.card {
+    background-color: #f7fdfd;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #00a99d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Card Image */
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Card Content Title */
+.card-content h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Card Paragraph */
+.card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    flex-grow: 1;
+}
+
+/* Card Link */
+.card-content a {
+    color: #00a99d;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: auto;
+    transition: color 0.3s ease;
+}
+
+/* Card Hover Effect */
+.card-content a:hover {
+    color: #007d6e;
+}
+
+/* Card Hover Transformation */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* ////////////////////// */
+/* Values Section Styles */
+.values-section {
+    padding-top: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.values-section h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.values-section p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.values-cards {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.value-card {
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+    padding: 35px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    /* Prevents cards from becoming too wide */
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #00a99d;
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.value-icon i {
+    color: #00a99d;
+    /* Green color similar to your theme */
+    font-size: 3rem;
+    /* Size of the icon */
+    margin-bottom: 20px;
+    /* Space below the icon */
+}
+
+
+.value-card h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.value-card p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* ////////////////// */
+
+/* Testimonial Section Styles\\\\\\\\\\\\\\*/
+
+.testimonial-section {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 9rem;
+    background-color: #f9f9f9;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    gap: 40px;
+}
+
+.testimonial-left {
+    margin: auto;
+    max-width: 40%;
+}
+
+.testimonial-left h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.testimonial-left p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Testimonial Right Styles */
+.testimonial-right {
+    background-color: #f4f7f6;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    position: relative;
+    max-width: 600px;
+}
+
+.testimonial-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.testimonial-header p {
+    color: #00a99d;
+    font-size: 14px;
+    margin: 40px 0px;
+}
+
+.pagination-dots {
+    display: flex;
+    gap: 5px;
+}
+.testimonial-slider .testimonial-slide {
+    display: none; /* Hide all slides by default */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.testimonial-slider .testimonial-slide:target {
+    display: block; /* Show the targeted slide */
+    opacity: 1;
+}
+
+/* Initially show the first slide */
+#slide1 {
+    display: block; /* Ensure the first slide is shown by default */
+    opacity: 1;
+}
+
+/* Hide the first slide when a different slide is targeted */
+#slide1:target ~ #slide2 {
+    display: none;
+    opacity: 0;
+}
+
+/* Hide other slides when they are not targeted */
+.testimonial-slider #slide1:not(:target),
+.testimonial-slider #slide2:not(:target) {
+    display: none;
+    opacity: 0;
+}
+
+
+
+
+.pagination-dots .dot {
+    height: 8px;
+    width: 8px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.pagination-dots .dot.active:target {
+    background-color: #333;
+}
+
+.pagination-dots .dot.active {
+    background-color: #333;
+}
+
+.testimonial-slider {
+    position: relative;
+}
+
+.testimonial-slide {
+    font-size: 25px;
+    color: #333;
+    line-height: 1.4;
+    margin: 20px 0px 50px 0px;
+}
+
+.testimonial-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-author img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+
+.testimonial-name {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+.testimonial-position {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.slider-controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    /* Center the buttons horizontally */
+    align-items: center;
+}
+
+.slider-controls button {
+    background-color: #e6f0ef;
+    color: #333;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-controls button:hover {
+    background-color: #cfe6e5;
+    transform: scale(1.1);
+}
+
+.slider-controls button.prev::before {
+    font-size: 16px;
+    transform: rotate(0deg);
+}
+
+.slider-controls button.next::before {
+    font-size: 16px;
+}
+/* ///////////////// */
+/* Footer Section Styles */
+footer {
+    background-color: #2d3a45;
+    color: #fff;
+    padding: 40px 9rem;
+    font-size: 14px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer-logo{
+    margin-right: auto;
+}
+.footer-logo img {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 20px; 
+
+}
+.footer-nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-nav ul li a:hover {
+    color: #fff;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.newsletter p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #ccc;
+}
+.newsletter form {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc; 
+    border-radius: 30px; 
+    overflow: hidden; 
+    width: 400px; 
+    max-width: 100%;
+}
+
+.newsletter input[type="email"] {
+    flex-grow: 1;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 30px 0 0 30px; 
+    outline: none;
+    background: none;
+}
+
+.newsletter button[type="submit"] {
+    padding: 15px 25px;
+    background-color: #f0a500;
+    border: none; 
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50px; 
+}
+
+.newsletter input[type="email"]::placeholder {
+    color: #999;
+}
+
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #444;
+    padding-top: 40px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    padding: 0 10px;
+    border-left: 1px solid #555; 
+}
+
+.footer-links li:first-child {
+    border-left: none; 
+}
+
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+
+.footer-bottom p {
+    margin: 0;
+}
+
+
+
+
+/* For tablets and devices with width between 768px and 1024px */
+@media (max-width: 1124px) and (min-width: 768px) {
+    header {
+        padding: 0px 3rem;
+    }
+
+    .hero-content {
+        padding-left: 3rem;
+        text-align: start;
+    }
+
+    .info-section {
+        flex-direction: column;
+        padding: 40px 3rem;
+    }
+
+    .text-content,
+    .power-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .kits-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .power-section {
+        flex-direction: column;
+        padding: 60px 3rem;
+    }
+
+    .overlay-card {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+
+    }
+
+    .call-text {
+        text-align: center;
+    }
+
+    .hero-buttons {
+        display: flex;
+        gap: 15px;
+        justify-content: start;
+        margin-bottom: 10px;
+    }
+
+    .image-content {
+        width: 80%;
+        margin: 50px auto 0 auto;
+    }
+
+    .content-wrapper {
+        flex-direction: column;
+    }
+
+    .text-content,
+    .cards-grid {
+        max-width: 100%;
+    }
+
+    .content-wrapper {
+        flex-direction: column;
+    }
+
+    .text-content,
+    .cards-grid {
+        max-width: 100%;
+    }
+
+    /* / */
+    .values-cards {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .value-card {
+        max-width: 100%;
+        flex: 1 1 100%;
+        margin: 10px 0;
+    }
+
+    /* /// */
+    .testimonial-section {
+        flex-direction: column;
+        padding: 20px 3rem;
+    }
+
+    .testimonial-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .testimonial-left {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .testimonial-right {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .testimonial-left h2 {
+        font-size: 30px;
+    }
+
+    .testimonial-left p {
+        font-size: 16px;
+    }
+/* ////////////////// */
+    footer {
+        padding: 40px 3rem;
+    }
+
+    .footer-top {
+        align-items: center;
+    }
+
+    .footer-nav ul {
+        gap: 10px;
+    }
+
+    .footer-bottom {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .footer-links {
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+/* For mobile devices with width up to 767px */
+@media (max-width: 767px) {
+    header {
+        flex-direction: column;
+        padding: 10px 2rem;
+        text-align: center;
+        position: static;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero {
+        height: auto;
+        padding: 20px 2rem;
+    }
+
+    .hero-content {
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .info-section,
+    .solar-kits,
+    .power-section {
+        padding: 40px 2rem;
+    }
+
+    .info-section {
+        flex-direction: column;
+    }
+
+    .text-content,
+    .power-text {
+        max-width: 100%;
+    }
+
+    .kits-grid {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .slider-indicator {
+        justify-content: center;
+    }
+
+    .repairs-section {
+        padding: 50px 2rem;
+    }
+
+    .overlay-card {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+
+    }
+
+    .call-text {
+        text-align: center;
+    }
+
+    .hero-buttons {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .image-content {
+        margin: 20px auto;
+    }
+
+    /* /// */
+    .cards-grid {
+        flex-direction: column;
+        margin: 0 auto 20px auto;
+
+    }
+
+    .card {
+        max-width: 100%;
+        margin: 0 auto 20px auto;
+    }
+
+    .card h3 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .card p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .card a {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .innovators-section {
+        padding: 20px;
+
+    }
+
+    .content-wrapper {
+        flex-direction: column;
+    }
+
+    .text-content,
+    .cards-grid {
+        max-width: 100%;
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /*  */
+
+    .values-section h2 {
+        font-size: 28px;
+    }
+
+    .values-section p {
+        font-size: 16px;
+    }
+
+    .value-icon i {
+        font-size: 2.5rem;
+    }
+
+    .value-card {
+        padding: 15px;
+
+        margin: 10px 15px;
+
+        max-width: 100%;
+    }
+
+    /* ////////// */
+    .testimonial-section {
+        flex-direction: column;
+        padding: 20px 3rem;
+    }
+
+    .testimonial-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .testimonial-left{
+        max-width: 100%;
+    }
+
+    .testimonial-left h2 {
+        font-size: 30px;
+    }
+
+    .testimonial-left p {
+        font-size: 14px;
+    }
+
+    .testimonial-right {
+        padding: 15px;
+    }
+
+    .testimonial-slide {
+        font-size: 20px;
+    }
+
+    .testimonial-author img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .testimonial-name {
+        font-size: 14px;
+    }
+
+    .testimonial-position {
+        font-size: 12px;
+    }
+
+    .slider-controls button {
+        width: 30px;
+        height: 30px;
+    }
+    /* /////////// */
+    footer {
+        padding: 40px 2rem;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-logo img {
+        margin-bottom: 20px;
+    }
+
+    .footer-nav ul {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .newsletter form {
+        width: 250px;
+        flex-direction: column;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+}
