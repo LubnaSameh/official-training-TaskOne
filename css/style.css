@@ -75,7 +75,7 @@ header nav ul li a:hover {
 /* Hero Section Styles */
 .hero {
     position: relative;
-    background-image: url('/task-one/images/solar-panels-meadow\ 1.png');
+ 
     background-size: cover;
     background-position: center;
     height: 100vh;
